@@ -1,0 +1,42 @@
+
+/* Change Navigation Color */
+ #myMenu a {
+  color:#ffffff;
+}
+
+#myMenu a:hover{
+  color:#f39c12 ;
+}
+
+.navbar{
+	background-color:#003366;
+}
+
+#footer{
+	background-color:#003366;
+}
+
+#team{
+	background-color:#80ced6;
+}
+
+#event,#campus{
+	background-color:#003366;
+}
+
+#vision{
+
+	background-color: #f0f5f5;
+}
+
+#accordion{
+	background-color:#f39c12;
+}
+
+#dropdown{
+	background-color: #000000;
+}
+#c_img{
+	height: 400px;
+
+}

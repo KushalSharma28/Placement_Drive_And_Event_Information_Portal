@@ -1,0 +1,67 @@
+.navbar{
+  background-color:#003366;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  min-height: 82vh;
+  margin-left: -15rem;
+  
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+
+}
+.sidebar-heading{
+  background-color:#003366;
+
+}
+
+.list-group a:hover{
+  
+  background:#f39c12;
+  outline:0;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+#footer{
+  background-color:#003366;
+}
+
+
+
+
+
+
